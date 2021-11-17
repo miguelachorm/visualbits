@@ -1,0 +1,313 @@
+/* MAIN TEMPLATE STYLES */
+#maincontainer {
+	width: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/contentdown.gif);
+	background-repeat: repeat-y;
+}
+#topmenu {
+	background-image: none;
+}
+#content {
+	background-image: url(../images/content.gif);
+	width: 1020px;
+	background-repeat: no-repeat;
+}
+#footer {
+	background-image: url(../images/footer.gif);
+	width: 1020px;
+	height: 141px;
+}
+
+#footerInfo {
+	float: none;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: right;
+	padding-top: 41px;
+}
+
+#footer11 {
+color: "#fffff";
+text-align="center";
+width: 500px;
+}
+
+#footer12 {
+color: "#fffff";
+text-align="center";
+width: 400px;
+}
+
+#header {
+	width: 1020px;
+	float: left;
+}
+#search {
+	width: 720px;
+	float: right;
+}
+body {
+	background-color: #f89c5e;
+	margin: 0px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+}
+#cta {
+	margin-right: 60px;
+	margin-left: 60px;
+	padding-top: 30px;
+	position: relative;
+}
+
+.link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #006;
+}
+
+/* ABOUT HTML CTA STYLES */
+#cta-about {
+	margin-right: 60px;
+	margin-left: 60px;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #666;
+	line-height: 25px;
+}
+
+.about-table-text {
+	padding: 30px;	
+}
+
+/* SERVICES HTML CTA STYLES */
+#cta-services {
+	margin-right: 60px;
+	margin-left: 60px;
+	padding-top: 15px;
+	position: relative;
+}
+
+/* CONTACT HTML CTA STYLES */
+#cta-contact {
+	margin-right: 60px;
+	margin-left: 60px;
+	position: relative;
+}
+
+/* INDEX HTML STYLES */
+.gif_acc_1 {
+	width: 164px;
+	height: 177px;
+	margin-left: 1px;
+	margin-top: 5px;
+}
+
+#about-us-subcta {
+	background-color: #ebebeb;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 3px;
+	border: 1px solid #999;
+}
+
+.subcta-about-title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #021b70;
+	font-weight: normal;
+}
+
+.subcta-about-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	line-height: 20px;
+	font-weight: normal;
+}
+
+.subcta_leftcol {
+	vertical-align: top;
+}
+
+.subcta_rightcol {
+	vertical-align: top;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.subcta_img {
+	vertical-align: top;
+	padding-top: 10px;
+}
+
+#subcta {
+	margin-right: 60px;
+	margin-left: 60px;
+}
+#maincontainer #content #subcta table {
+	padding-top: 390px;
+}
+
+#left_holder{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 10px;
+	bottom: -343px;
+}
+#right_holder{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right: 10px;
+	top: 341px;
+}
+.left{
+	height: 50px;
+	width: 50px;
+	left: 5px;
+	bottom: 5px;
+}
+.right{
+	height: 50px;
+	width: 50px;
+	right: 5px;
+	botton: 5px;
+}
+#imag{
+	height: 378px;
+	width: 900px;
+	position: absolute;
+}
+
+.read-more {
+	margin-bottom: 15px;
+	margin-left: 200px;
+}
+/* Styles for Accordion */
+
+.AccordionTitle, .AccordionContent, .AccordionContainer
+{
+  position:relative;
+  width:520px;
+}
+
+.AccordionTitle
+{
+	height: 60px;
+	overflow: hidden;
+	cursor: pointer;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14pt;
+	font-weight: normal;
+	vertical-align: middle;
+	text-align: left;
+	background-repeat: repeat-x;
+	display: table-cell;
+	color: #021b70;
+	background-image: url(../images/accordion_title.gif);
+	-moz-user-select: none;
+	padding-left: 10px;
+}
+
+
+.AccordionContent
+{
+  height:0px;
+  overflow:auto;
+  display:none; 
+}
+
+.AccordionContainer
+{
+  border-top: solid 0px #C1C1C1;
+  border-bottom: solid 0px #C1C1C1;
+  border-left: solid 0px #C1C1C1;
+  border-right: solid 1px #C1C1C1;
+}
+
+#maincontainer #content #subcta table {
+	width: 900px;
+	padding-top: 390px;
+}
+
+
+#table-services {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	width: 900px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+
+/* STYLE FOR CONTACT FORM */
+#cta-contact #form1 {
+	background-color: #FFFFFF;
+	width: 600px;
+	height: 400px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+#form1 table tr {
+	margin: 20px;
+}
+
+#contact-titles {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+}
+
+#contact-fields {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+
+#first {
+	height: 20px;
+	widht: 160px;
+	width: 160px;
+}
+
+#last {
+	height: 20px;
+	width: 160px;	
+}
+
+#email { height: 20px; width: 160px;}
+
+#relatedto {
+	height: 25px;
+	width: 160px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+#send {
+	width: 80px;
+	height: 40px;
+	background-color: #f36201;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript, JQuery">
+<meta name="description" content="Discover why Visual Bits is the best and more affordable leader consultant and top provider of Mobile and web development in America">
+<meta name="author" content="Visual Bits Corp">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Visual Bits Corp | Home</title>
+<!-- TemplateEndEditable -->
+<link href="../css/mystyle.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="/favicon.ico" >
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body onload="MM_preloadImages('../images/menu_1_active.gif','../images/menu_2_active.gif','../images/menu_3_active.gif','../images/menu_4_active.gif','../images/menu_5_active.gif')">
+<div id="maincontainer">
+  <div id="header"><img src="../images/top1.gif" width="488" height="133" /><img src="../images/top2.gif" width="213" height="133" /><img src="../images/top3.gif" width="319" height="133" /></div>
+  <div id="topmenu"> <img src="../images/menu_left.gif" width="40" height="52" /><a href="../index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu1','','../images/menu_1_active.gif',1)"><img src="../images/menu_1_regular.gif" width="167" height="52" id="menu1" /></a><a href="../about.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu2','','../images/menu_2_active.gif',1)"><img src="../images/menu_2_regular.gif" width="165" height="52" id="menu2" /></a><a href="../services.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu3','','../images/menu_3_active.gif',1)"><img src="../images/menu_3_regular.gif" width="166" height="52" id="menu3" /></a><a href="../blog.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu4','','../images/menu_4_active.gif',1)"><img src="../images/menu_4_regular.gif" width="164" height="52" id="menu4" /></a><a href="../contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('menu5','','../images/menu_5_active.gif',1)"><img src="../images/menu_5_regular.gif" width="166" height="52" id="menu5" /><img src="../images/menu_right.gif" width="152" height="52" /></a>  </div>
+  
+  <!-- TemplateBeginEditable name="contenido" --><div id="content"><div id="cta">Content for  id "cta" Goes Here</div><div id="subcta"><p>Content for  id "subcta" Goes Here    </p></div></div><!-- TemplateEndEditable -->
+     
+  <div id="footer">
+    <div id="footerInfo">
+      <table width="1019" border="0">
+        <tr>
+          <td><div id="footer11" ><a href="index.html">Visual Bits Corporation</a> (2014) All rights reserved</div></td>
+          <td><div id="footer12" align="center"><a href="https://www.facebook.com/miguelacho71"><img src="../images/facebook.gif" alt"Facebook Img" width="153" height="57" /></a><img src="../images/twitter.gif" alt="Twitter Img" width="182" height="57" /></div></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+</body>
+</html>
